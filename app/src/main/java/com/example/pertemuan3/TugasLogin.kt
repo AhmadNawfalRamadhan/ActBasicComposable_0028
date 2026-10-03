@@ -183,6 +183,13 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
-
+    // Column utama: semua konten tersusun vertikal & rata tengah
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 40.dp, bottom = 40.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+        }
     }
 }
