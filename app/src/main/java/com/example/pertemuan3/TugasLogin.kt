@@ -80,6 +80,11 @@ fun TugasLoginRowColumn(modifier: Modifier) {
             Text(text = "Komponen2kolom1")
             Text(text = "Komponen3kolom1")
         }
-
+        //Kolom2
+        Column(){
+            Text(text = "Komponen1Kolom2")
+            Text(text = "Komponen2Kolom2")
+            Text(text = "Komponen3Kolom2")
+        }
     }
 }
