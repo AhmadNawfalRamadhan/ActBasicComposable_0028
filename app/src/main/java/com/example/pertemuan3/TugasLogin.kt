@@ -246,6 +246,14 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 color = Color.White,
                 style = TextStyle(shadow = textShadow)
             )
+            Text(
+                text = "20240140028",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White,
+                style = TextStyle(shadow = textShadow)
+            )
+
 
 
         }
