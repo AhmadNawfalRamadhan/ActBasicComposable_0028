@@ -256,6 +256,15 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(10.dp))
 
+            // Foto bulat dengan border putih
+            Box(
+                modifier = Modifier
+                    .size(250.dp)
+                    .clip(CircleShape),
+                contentAlignment = Alignment.Center
+            ){
+
+            }
 
 
         }
