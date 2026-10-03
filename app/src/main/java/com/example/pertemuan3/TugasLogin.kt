@@ -263,7 +263,12 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                     .clip(CircleShape),
                 contentAlignment = Alignment.Center
             ){
-
+                Image(
+                    painter = foto,
+                    contentDescription = null,
+                    modifier = Modifier.fillMaxSize(),
+                    contentScale = ContentScale.Crop
+                )
             }
 
 
