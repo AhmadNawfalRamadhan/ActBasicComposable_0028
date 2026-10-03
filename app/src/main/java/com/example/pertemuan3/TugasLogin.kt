@@ -225,9 +225,12 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                     .background(Color(0xFFE8E8F4)),
                 contentAlignment = Alignment.Center
             )
-            {
+            { Image(
+                painter = logo,
+                contentDescription = null,
+                modifier = Modifier.size(180.dp)
+            )}
 
-            }
 
         }
     }
