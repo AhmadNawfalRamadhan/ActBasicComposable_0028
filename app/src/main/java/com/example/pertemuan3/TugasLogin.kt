@@ -254,6 +254,8 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 style = TextStyle(shadow = textShadow)
             )
 
+            Spacer(modifier = Modifier.height(10.dp))
+
 
 
         }
