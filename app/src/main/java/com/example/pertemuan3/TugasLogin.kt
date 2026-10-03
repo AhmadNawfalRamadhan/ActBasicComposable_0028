@@ -205,6 +205,13 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                         offset = Offset(3f, 4f)
                     )
                 )
+
+            )
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 14.sp,
+                color = Color.White,
+                style = TextStyle(shadow = textShadow)
             )
 
         }
