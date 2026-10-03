@@ -21,6 +21,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -190,6 +191,22 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 .padding(top = 40.dp, bottom = 40.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Text(
+                text = "Login",
+                fontSize = 50.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFFFFD54F),
+                fontFamily = FontFamily.SansSerif,
+                letterSpacing = 1.sp,
+                style = TextStyle(
+                    shadow = Shadow(
+                        color = Color.Black.copy(alpha = 0.8f),
+                        blurRadius = 5f,
+                        offset = Offset(3f, 4f)
+                    )
+                )
+            )
+
         }
     }
 }
