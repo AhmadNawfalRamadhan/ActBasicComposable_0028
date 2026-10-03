@@ -239,6 +239,14 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 color = Color(0xFFFFD54F),
                 style = TextStyle(shadow = textShadow)
             )
+            Text(
+                text = "Ahmad Nawfal Ramadhan",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White,
+                style = TextStyle(shadow = textShadow)
+            )
+
 
         }
     }
