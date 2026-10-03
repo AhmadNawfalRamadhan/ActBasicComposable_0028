@@ -15,7 +15,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
@@ -165,4 +167,11 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
     val latar = painterResource(id = R.drawable.latar)   // ganti dengan gambar latar kamu
     val logo = painterResource(id = R.drawable.logo)        // ganti dengan logo kamu
     val foto = painterResource(id = R.drawable.foto)      // ganti dengan foto kamu
+
+    val textShadow = Shadow(
+        color = Color.Black,
+        blurRadius = 4f,
+        offset = Offset(3f, 4f)
+    )
+
 }
