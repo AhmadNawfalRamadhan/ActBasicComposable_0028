@@ -158,3 +158,11 @@ fun TugasLoginBoxColumnRow(modifier: Modifier) {
         }
     }
 }
+
+// ===================== TUGAS PRAKTIKUM (BARU) =====================
+@Composable
+fun TataletakTugas(modifier: Modifier = Modifier) {
+    val latar = painterResource(id = R.drawable.latar)   // ganti dengan gambar latar kamu
+    val logo = painterResource(id = R.drawable.logo)        // ganti dengan logo kamu
+    val foto = painterResource(id = R.drawable.foto)      // ganti dengan foto kamu
+}
