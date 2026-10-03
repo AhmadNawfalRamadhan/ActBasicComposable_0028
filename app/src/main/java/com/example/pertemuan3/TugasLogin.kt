@@ -231,6 +231,7 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 modifier = Modifier.size(180.dp)
             )}
 
+            Spacer(modifier = Modifier.height(60.dp))
 
         }
     }
