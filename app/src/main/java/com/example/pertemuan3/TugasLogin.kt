@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -174,4 +175,14 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
         offset = Offset(3f, 4f)
     )
 
+    // Box terluar: gambar latar memenuhi layar, konten ditumpuk di atasnya
+    Box(modifier = modifier.fillMaxSize()) {
+        Image(
+            painter = latar,
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
+    }
 }
